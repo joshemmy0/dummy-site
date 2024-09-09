@@ -1,7 +1,11 @@
-import HomePage from './components/HomePage';
+import HomePage from "./components/HomePage";
 
 function App() {
-  return <HomePage />;
+  return (
+    <div className="font-jost min-h-dvh">
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
