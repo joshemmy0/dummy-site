@@ -1,13 +1,15 @@
-export const purge = ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"];
-export const darkMode = false;
-export const theme = {
-  extend: {
-    fontFamily: {
-      jost: ["Jost", "sans-serif"],
+// tailwind.config.js
+export default {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+      },
     },
   },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 };
-export const variants = {
-  extend: {},
-};
-export const plugins = [];
